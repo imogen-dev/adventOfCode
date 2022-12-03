@@ -8,12 +8,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="day1\day1input.txt">
+      <None Update="Input\input1.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-      <None Update="day2\day2input.txt">
+      <None Update="Input\input2.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AdventOfCode.Framework" Version="1.1.2" />
     </ItemGroup>
 
 </Project>
