@@ -7,3 +7,4 @@ Console.WriteLine("Hello, Advent Of Code!");
 SolutionRunner runner = new("Input");
 runner.Solve(1);
 runner.Solve(2);
+runner.Solve(3);
