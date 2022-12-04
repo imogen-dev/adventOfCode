@@ -8,3 +8,4 @@ SolutionRunner runner = new("Input");
 runner.Solve(1);
 runner.Solve(2);
 runner.Solve(3);
+runner.Solve(4);
